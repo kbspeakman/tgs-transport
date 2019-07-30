@@ -1,3 +1,7 @@
+#about_us, #home, #international_drayage, #contact {
+    min-height: 300px;
+}
+
 .logo{
     height: 95px;
     width: 275px;
@@ -47,24 +51,34 @@
 
 #about_us h2{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 5em;
-    font-weight: 800;
+    font-size: 6em;
+    font-weight: 900;
     color: #05367d;
     text-transform: uppercase;
+    margin-top: 125px;
+    letter-spacing: 2px;
+    margin-left: 23px;
+
 }
 
 #about_us h3{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
-    font-size: 2em;
-    margin-top: 10;
+    font-size: 1.7em;
+    margin-top: 5px;
+    /* margin-left: 5px; */
+    letter-spacing: 1.5px;
 }
 
 #about_us p{
     font-weight: 300;
 }
 
-.parallax{
+.bold{
+    font-weight: 400;
+}
+
+.parallax .center{
     background-image: url('../img/APL_Truck_050.JPG');
     background-size: cover;
     background-attachment: fixed;
@@ -73,11 +87,57 @@
     margin-top: 20px;
 }
 
-#review .center {
+/* #review .center {
     margin: 0 auto;
     float: none;
     background-color: rgba(20,20,20,.6);
     padding: 10px;
     margin-top: 145px;
     border-radius: 5px;
+} */
+
+/* #international_drayage{
+    background-color: #05367d;
 }
+
+/* #international_drayage */
+
+#international_drayage, .container-fluid{
+    background-color: #05367d
+}
+
+#international_drayage, p{
+    font-weight: 300;
+    color: #ffffff;
+}
+
+
+h1{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 75px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+/* #international_drayage h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    font-weight: 900;
+    color:#05367d;
+    text-transform: uppercase;
+    margin-top: 75px;
+    letter-spacing: 2px;
+    margin-left: 23px; */
+    text-align: center;
+} */
+
+.drayage{
+    /* margin-left: 200px;
+    margin-top: 20px; */
+    color: #05367d;
+    margin-bottom: 30px;
+} */
