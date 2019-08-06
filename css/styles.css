@@ -1,7 +1,7 @@
 /* Global */
 .container-fluid {
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
 }
 
 
@@ -46,15 +46,19 @@
     margin-top: 15px;
 }
 
+.navbar{
+    margin-bottom: 0px;
+}
+
 nav.navbar {
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     right: 0;
     left: 0;
     z-index: 20;
     height: 100px;
     /* padding-top: 20px; */
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 
 .navbar-brand{
@@ -67,12 +71,13 @@ nav.navbar {
 
 .navbar-default .navbar-brand{
     font-family: helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 3.5vw;
     text-transform: uppercase;
     color: #05367d; 
     font-weight: 700;
     margin-left: 10px;
     margin: auto;
+    margin-top: 20px;
     /* line-height: 35px;
     margin-top: 5px; */
 }
@@ -114,12 +119,14 @@ nav.navbar {
     padding-bottom: 60px;
 }
 
-.carousel-inner .item {
+.carousel-inner .item{
     /* width: 100%; */
-    height: 650px;
+    height: 550px;
     background-size: cover;
     background-position: center;
+    /* background-origin: inherit; */
 }
+
 
 .main_img1 {
     background-image: url(../img/APL_Truck_036.2.jpg);
@@ -134,16 +141,16 @@ nav.navbar {
 }
 
 .main_logo {
-    max-height: 130px;
+    max-height: 160px;
 }
 
 .carousel-inner>.item>img{
-    /* top: 120px; */
+    padding-top: 20px;
 }
 
-.img-responsive .main_logo{
+/* .img-responsive .main_logo{
     margin-top: 120px;
-}
+} */
 
 /* .btn-primary {
     color: #fff;
@@ -165,7 +172,43 @@ nav.navbar {
 /* End of Carousel */
 
 
+/* Start of Intro */
 
+#intro{
+    background-color: #05367d;
+}
+
+#intro .row {
+    /* margin-top: 30px; */
+    background-color: #05367d;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#international_drayag, h1 {
+        font-family: Helvetica, sans-serif;
+        font-weight: 700;
+        color:#fff;
+        font-size: 3.8vw;
+        text-align: center;
+        margin-top: 40px;
+}
+
+hr{
+    align-content: center; 
+}
+
+.text-intro{
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 300;
+    margin-top: 25px;
+    text:auto;
+}
+
+
+/* End of Intro */
 
 
 /* Start of About */
@@ -194,7 +237,7 @@ nav.navbar {
     font-weight: 900;
     color: #05367d;
     text-transform: uppercase;
-    margin-top: 50px;
+    margin-top: 25px;
     letter-spacing: 2px;
     text-align: center;
 
@@ -224,6 +267,14 @@ nav.navbar {
     margin: auto;
 }
 
+#about_us .col-md-6{
+    padding: 0px;
+}
+
+#about_us .col-xs-12{
+    padding: 0px;
+}
+
 .bold{
     font-weight: 400;
 }
@@ -231,11 +282,38 @@ nav.navbar {
 .parallax .center{
     background-image: url('../img/APL_Truck_050.JPG');
     background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
     background-attachment: fixed;
-    height: 350px;
+    height: 450px;
     /* width: 100%; */
+    /* margin-top: 20px; */
+    overflow: hidden;
+}
+
+
+
+
+@media only screen and (max-device-width: 1280px) {
+    .parallax {
+        background-image: url('../img/APL_Truck_050.1.JPG');
+        background-size: contain;
+        background-attachment: scroll;
+    }
+
+/* .parallax .mobile{
+    background-image: url('../img/APL_Truck_050.1.JPG');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 250px;
     margin-top: 20px;
-    
+    overflow: hidden;
+    display:block;
+
+} */
+
+.text-justify{
+    padding: 10px;
 }
 
 
@@ -246,9 +324,9 @@ nav.navbar {
 /* Start of Drayage */
 
 
-.col-md-12.center{
+/* .col-md-12.center{
     padding: 0px;
-}
+} */
 
 #international_drayage{
     background-color: #05367d;
@@ -268,25 +346,31 @@ nav.navbar {
     font-family: Helvetica, sans-serif;
     font-weight: 700;
     color:#fff;
-    font-size: 3em;
+    font-size: 3.8vw;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 40px;
     /* text-shadow: 1px 1px 5px #0a0a0a; */
 }
 
+
 .container-trucks{
-    margin: auto;
-    padding-bottom: 15px;
+    padding:0px;
+    /* margin:auto; */
+    /* width:100%; */
 }
 
-/* .row.col-xs-4{
-    margin:0px;
-    padding:0px;
-} */
+.col-md-12{
+    padding: 0px;
+    margin: auto;
+}
+
+.col-xs-4{
+    padding: 0px;
+}
 
 .text {
     color: #fff;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom: 30px;
 }
 
@@ -294,7 +378,7 @@ nav.navbar {
 
 
 
-/* Start of Contact */
+/* Start of Contact */s
 
  h1.text-uppercase{
     text-align: center;
@@ -318,11 +402,12 @@ nav.navbar {
 }
 
 .contact_form span{
-    color: #05367d;
+    color: white;
 }
 
-form span: :after{
+form span :after{
     content: '*';
+    color: white;
 }
 
 #contact{
@@ -335,7 +420,7 @@ form span: :after{
     color:#05367d;
     font-size: 4me;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 #contact p{
@@ -371,14 +456,107 @@ address{
 
 /* End of Contact */
 
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
 
 
 
+/* Start of Footer */
 
+.page-footer{
+    background-color: #05367d;
+    height: 120px;
+}
 
+footer.page-footer .footer-copyright {
+    overflow: hidden;
+    background-color: #fedb16;
+    color:#05367d;
+    height: 50px;
+}    
 
+.text-center {
+    text-align: center!important;
+}
 
+/* .py-3 {
+    padding-bottom: 1rem!important;
+} */
 
+footer.page-footer {
+    color: #05367d;
+}
+
+.footer-copyright{
+    /* margin-top: 40px; */
+    color: #fedb16;
+    padding-top: 15px;
+}
+
+a{
+    color: #fff
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* padding-top: 50px; */
+    /* margin-top: 40px; */
+}
+
+/* @media (min-width: 768px) {
+    flex: 0 0 100%;
+    max-width: 100%;
+} */
+
+.py-5 {
+    padding-bottom: 3rem!important;
+}
+
+.mb-5, .my-5 {
+    margin-bottom: 3rem!important;
+    padding: 10px;
+}
+
+/* .fb-ic, .tw-ic, .li-ic .ins-ic {
+    color: #fff;
+    padding: 0, 20px;
+} */
+
+.fa-facebook-f:before {
+    content: "\f39e";
+    padding: 30px;
+}
+
+.fa-twitter:before {
+    content: "\f099";
+    padding: 30px;
+}
+
+.fa-linkedin-in:before {
+    content: "\f0e1";
+    padding: 30px;
+}
+
+.fa-instagram:before {
+    content: "\f16d";
+    padding: 30px;
+}
+
+footer .col-md-12 .py-5{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 300px;
+}
 
 /* .carousel{
     margin-bottom: 60px;
