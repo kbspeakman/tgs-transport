@@ -10,9 +10,41 @@
 </head>
 <body>
 
-    <!-- Navbar -->
+	<!-- Navbar -->
 	
-	<div class="container">
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNavbar">
+					<span class="sr-only">Toggle Navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="#home" class="navbar-brand">
+					Welcome to T.G.S Intermodal
+					<!-- <img src="img/TGS_logo.png" alt="logo"> -->
+				</a>
+			</div>
+			<div class="collapse navbar-collapse" id="mainNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active">
+						<a href="#">Home <span class="sr-only">(current)</span>
+						</a>
+					</li>
+					<li><a href="#about_us">About Us</a></li>
+					<li><a href="#international_drayage">International Drayage</a></li>
+					<!-- <li><a href="#menu">Menue</a></li> -->
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+
+	
+	<!-- <div class="container">
             <header class="row">
                 <div class="col-xs-8 col-sm-4 col-md-6 centered">
                     <img src="img/TGS_logo.png" alt="logo" class="pull-left logo">
@@ -27,14 +59,12 @@
                 </nav>
             </header>
         </div>	
-    
+     -->
         <!-- End of Nav Bar -->
-    
-
         
     <!-- Carousel Start -->
 
-	<div id="carousel-example-generic home" class="carousel slide" data-ride="carousel">
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 			<!-- Indicators -->
 			<ol class="carousel-indicators">
 			  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -45,43 +75,48 @@
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner" role="listbox">
 			  <div class="item active main_img1">
-				<img src="img/APL_Truck_033.JPG" alt="Carousel Logo" class="img-responsive center-block main_logo">
-				<div class="carousel-caption">
-						<h1> Welcome to TGS Intermodal</h1>
+				<img src="img/TGS_logo.png" alt="carousel logo" class="img-responsive center-block main_logo">
 			  </div>
 			  <div class="item main_img2">
-				  <img src="img/APL_Truck_028.JPG">
-				
-				 <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam doloremque aperiam iste facere sed non!</p> -->
-				 <a href="#" class="btn btn-lg btn-primary" role="button">Learn More</a>
-				</div>
-			  </div>
-			  <div class="item main_img3">
-				  <div class="carousel-caption">
-					  <h1>Lorem</h1>
-					  <p>lorem5</p>
-					  <a href='#nothing' role="button" class="btn btn-lg btn-primary">Learn More
-					  </a>
-				  </div>
-			  </div>
+			`</div>
+				  <div class="item main_img3">
+				</div>		  
 			</div>
 		  
 			<!-- Controls -->
-			
 			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-				<span class="glyphicon glyphicon-chevron-left" aria-hidden="false"></span>
+			  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 			  <span class="sr-only">Previous</span>
 			</a>
-			
 			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
 			  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 			  <span class="sr-only">Next</span>
 			</a>
 		  </div>
-		  
+	
 	<!-- Carousel Ends -->
 
+	<!-- Intro Section  -->
 
+		  <section class="container-fluid" id="intro">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h1>Welcome to T.G.S. Intermodal</h1>
+								<hr class="col-md-1 col-md-offset-5">
+						</div>
+						<div class="col-xs-8 col-xs-offset-2">
+							<p class="text-intro">T.G.S. Intermodal, Inc. is a Nevada drayage company. Although TGS Intermodal was established in 2019, it is a part of the TGS Transportation family, a drayage based company established in 1985. Our TGS Intermodal team is veteran, with each person having at least 10 years’ experience in international and domestic drayage.
+
+							<p class="text">Our commitment is to deliver your products on-time, information real-time, in the safest manner possible, <strong>EVERY TIME! </strong></p>
+						</div>
+					</div>
+				</div>			  
+		</section>
+
+
+
+	<!-- Intro Section  -->
 
 	<!-- Story Section -->
 <section class="container-fluid" id="about_us">
@@ -90,7 +125,11 @@
 					<div class="col-md-6">
 						<h2>About Us</h2>
 						<h3>The Service You’ve Come To Depend On</h3>
-			
+				<div class="row">	
+					<div class="col-xs-12 center">
+						<img src="/img/IMG_4834.jpg" class="rounded mx-auto d-block img-responsive" alt="TGS Founders">
+					</div>
+				</div>		
 					</div>
 					<div class="col-md-6">
 						<!-- <div class="year_container">
@@ -110,7 +149,7 @@
 					steadfast in maintaining the best, delivering the best, so you always look your
 					best!</p>
 
-					<p class="text-justify bold">TGS is the “The Service You’ve Come To Depend On”</p>	
+					<p>TGS is<strong class="text-justify bold">“The Service You’ve Come To Depend On”</strong>	</p>
 				</div>
 			</div>
 		</div>
@@ -119,7 +158,8 @@
 	<div id="about_us" class="container-fluid">
 		<div class="row parallax">
 			<div class="col-md-12 center">
-				<!-- <img class="parallax" src="img/APL_Truck_050.JPG" alt="TGS Truck in Sierra Nevada Mountains"> -->
+				<!-- <img class="parallax center img-responsive" src="img/APL_Truck_050.JPG" alt="TGS Truck in Sierra Nevada Mountains">
+				<img class="parallax img-responsive-mobile" src="img/APL_Truck_050.1.JPG" alt="TGS Truck in Sierra Nevada Mountains"> -->
 			</div>
 		</div>
 	</div>
@@ -127,7 +167,178 @@
 
 	<!-- Start of International Drayage -->
 
-	<section class="container_fluid" id="#international_drayage">
+	<div id="international_drayage" class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<h1>International Drayage</h1>
+				<hr class="col-md-1 col-md-offset-5">
+			</div>
+			<div class="col-xs-8 col-xs-offset-2">
+				<p class="text text-justify">Out of northern Nevada, our Reno/Sparks office manages freight from all the international terminals and rail ramps out of the port of Oakland. We run a mix of company trucks and subhaulers. TGS has purchased brand new trucks for our company fleet in Nevada. Lightweight, high horsepower trucks to haul heavy loads and take on Donner Pass with ease. TGS is also incorporating our new chassis fleet into this market. TGS runs about the newest chassis fleet in the industry. All chassis are 2017 and newer, with new chassis coming into the fleet every six months. We have an array of chassis for many types of loads, specifically for heavy 20’ and 40’ loads with upwards of 46,000 lbs. cargo weight.</p>
+			</div>
+		</div>	
+	</div>
+	<section class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="row">
+				<div class="col-xs-4">
+				<img class="img-responsive" src="/img/APL_Truck_028.JPG" alt="TGS Truck">
+		  		</div>  
+		  	<div class="col-xs-4">
+			<img class="img-responsive"  src="/img/APL_Truck_036.JPG" alt="TGS Truck">
+		  	</div>
+		  	<div class="col-xs-4">
+			<img class="img-responsive" src="img/APL_Truck_033.JPG" alt="TGS"> </div>  
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- <div class="row">
+		<div class="col-md-12">
+			<div class="row">
+				<div class="col-xs-4"></div>
+				<div class="col-xs-4"></div>
+				<div class="col-xs-4"></div>
+			</div>
+		</div>
+	</div> -->
+
+
+	<!-- Start of Contact -->
+
+	<!-- Contact section -->
+
+	<section>
+	<div id="contact">
+		<div class="container-fluid">
+			<div class="col-sm-8 col-sm-offset-2">
+			<div class="row">
+				<div class="col-sm-12">
+				<h1 class="text-uppercase">Contact Us</h1>
+				</div>
+			</div>
+		<!-- <div class="row col-sm-12">
+			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, perspiciatis! Ducimus officia amet corrupti doloribus.</p>
+		</div> -->
+			<div class="row contact_bottom">
+				<div class="col-md-6">
+					<div class="col-sm-12 contact_form">
+						<form action="">
+							<div class="form-group">
+								<label for="name">Name<span></span>
+								<input type="text" class="form-control" placeholder="Name"></label>
+
+								<label for="email">Email<span></span>
+								<input type="text" class="form-control" placeholder="Email"></label>
+								
+								<label for="subject"><span>Subject</span>
+								<input type="text" class="form-control" placeholder="Subject"></label>
+
+								<div class="form-group">
+								<label for="message">Message<span></span></label>
+								<textarea cols="30" rows="5" class="form-control" placeholder="Let us know your questions."></textarea></div>
+
+								<div class="checkbox">
+								<label for="checkbox"><input type="checkbox">I'm not a robot</label>		</div>
+
+								<button type="submit" class="btn btn-default center-block">Send Message</button>
+								<p class="text-center" id="contact_fine_print">All fields marked<span>*</span> are mandatory</p>
+							</div>
+						</form>
+					</div>
+				</div>
+
+				<div class="col-md-5">
+					<address>
+						<strong> T.G.S. Intermodal, Inc.</strong>
+						<br>
+						30 Ohm Place, Ste 1, Reno, NV 89502
+						<br>
+						775-842-8174
+						<br>
+						reno-dispatch@tgsintermodal.com
+						<a href=Website: www.tgsintermodal.com="HTML link">www.tgsintermodal.com</a>
+					</address>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24624.280651521032!2d-119.77265661017022!3d39.51369791040439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80993f0fec248253%3A0xa016d71fa38f5fb!2s30+Ohm+Pl+%231%2C+Reno%2C+NV+89502!5e0!3m2!1sen!2sus!4v1564606684412!5m2!1sen!2sus" width="430" height="330" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+
+
+
+<!-- Start of footer -->
+
+<footer class="page-footer font-small cyan darken-3">
+
+	<!-- Footer Elements -->
+	<div class="container">
+  
+	  <!-- Grid row-->
+	  <div class="row">
+  
+		<!-- Grid column -->
+		<div class="col-md-12 py-5">
+		  <div class="mb-5 flex-center">
+  
+			<!-- Facebook -->
+			<a class="fb-ic">
+			  <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+			</a>
+			<!-- Twitter -->
+			<a class="tw-ic">
+			  <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+			</a>
+			<!-- Google +-->
+			<!-- <a class="gplus-ic">
+			  <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+			</a> -->
+			<!--Linkedin -->
+			<a class="li-ic">
+			  <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+			</a>
+			<!--Instagram-->
+			<a class="ins-ic">
+			  <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+			</a>
+			<!--Pinterest-->
+			<!-- <a class="pin-ic">
+			  <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+			</a> -->
+		  </div>
+		</div>
+		<!-- Grid column -->
+  
+	  </div>
+	  <!-- Grid row-->
+  
+	</div>
+	<!-- Footer Elements -->
+  
+	<!-- Copyright -->
+	<div class="footer-copyright text-center py-3">© 2019 Copyright:
+	  <a href="https://www.rosestrategiccommunications.com/"> RoseStrategicCommunications.com</a>
+	</div>
+	<!-- Copyright -->
+  
+  </footer>
+
+
+
+
+  <!-- End of Footer -->
+
+
+
+
+
+
+
+	<!-- <section class="container_fluid" id="#international_drayage">
 		<div class="container">
 			<h1>International Drayage</h1>
 			<div class="row ">
@@ -137,10 +348,10 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 
-
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	</body>
 </html>

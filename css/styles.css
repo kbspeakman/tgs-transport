@@ -1,20 +1,566 @@
+/* Global */
+.container-fluid {
+    padding: 0px;
+    margin: 0px;
+}
+
+
 #about_us, #home, #international_drayage, #contact {
     min-height: 300px;
 }
 
-.logo{
+/* .logo{
     height: 95px;
     width: 275px;
     padding-top: 10px;
     padding-bottom: 10px;
+} */
+
+
+
+
+/* Start of Nav-bar */
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #05367d;
+    padding-bottom: 10px;
 }
 
-.nav {
+.navbar-default .navbar-nav > li > a {
+    color: #05367d;
+    margin-top: 15px;
+    /* text-shadow: 1px 1px 2px #0a0a0a; */
+}
+
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:focus {
+    color: #fedb16;
+    background-color: #05367d;
+    padding-bottom: 10px;
+}
+
+.navbar-default .navbar-toggle{
+    margin-top: 15px;
+}
+
+.navbar{
+    margin-bottom: 0px;
+}
+
+nav.navbar {
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+    height: 100px;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+}
+
+.navbar-brand{
+    top: 130px;
+}
+
+/* .img-responsive, .center-block, .main_logo{
+    top: 200px;
+} */
+
+.navbar-default .navbar-brand{
+    font-family: helvetica, sans-serif;
+    font-size: 3.5vw;
+    text-transform: uppercase;
+    color: #05367d; 
+    font-weight: 700;
+    margin-left: 10px;
+    margin: auto;
+    margin-top: 20px;
+    /* line-height: 35px;
+    margin-top: 5px; */
+}
+
+.navbar>.container-fluid .navbar-brand{
+    margin-left: 5px;
+    /* padding-top: 20px; */
+}
+
+/* .navbar-brand > img {
+    margin-top: -7px;
+    height: 80px;
+    width: 230px;
+    /* padding-top: 10px; */
+    /* margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+} */ */
+
+/* .nav {
+    margin-top: 15px;
+} */
+
+
+/* End of Nav-bar */
+
+
+
+
+/* Start Carousel */
+
+
+.carousel {
+    margin-bottom: 60px;
+}
+
+.carousel-caption {
+    /* z-index: 10; */
+    padding-bottom: 60px;
+}
+
+.carousel-inner .item{
+    /* width: 100%; */
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    /* background-origin: inherit; */
+}
+
+
+.main_img1 {
+    background-image: url(../img/APL_Truck_036.2.jpg);
+}
+
+.main_img2 {
+    background-image: url(../img/APL_Truck_033.1.jpg);
+}
+
+.main_img3 {
+    background-image: url(../img/APL_Truck_028.1.JPG);
+}
+
+.main_logo {
+    max-height: 160px;
+}
+
+.carousel-inner>.item>img{
+    padding-top: 20px;
+}
+
+/* .img-responsive .main_logo{
+    margin-top: 120px;
+} */
+
+/* .btn-primary {
+    color: #fff;
+    background-color: #f8512f;
+    border-color: transparent;
+}
+
+.btn-primary:hover {
+    background-color: #d34326;
+    border-color: transparent;
+} */
+
+.carousel-caption p {
+    color: #f7f7f7;
+    font-size: 16px;
+}
+
+
+/* End of Carousel */
+
+
+/* Start of Intro */
+
+#intro{
+    background-color: #05367d;
+}
+
+#intro .row {
+    /* margin-top: 30px; */
+    background-color: #05367d;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#international_drayag, h1 {
+        font-family: Helvetica, sans-serif;
+        font-weight: 700;
+        color:#fff;
+        font-size: 3.8vw;
+        text-align: center;
+        margin-top: 40px;
+}
+
+hr{
+    align-content: center; 
+}
+
+.text-intro{
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 300;
+    margin-top: 25px;
+    text:auto;
+}
+
+
+/* End of Intro */
+
+
+/* Start of About */
+
+#about_us{
+    margin-top: 10px;
+}
+
+#about_us .container-fluid{
+    margin-bottom: 100px;
+    /* width: 100% */
+    /* margin: 30px; */
+}
+
+ h1{
+    font-family: Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 70px;
+    font-kerning: normal;
+    text-transform: uppercase;
+}
+
+#about_us h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    font-weight: 900;
+    color: #05367d;
+    text-transform: uppercase;
+    margin-top: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+
+#about_us h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    /* margin-left: 5px; */
+    letter-spacing: 1px;
+}
+
+#about_us p{
+    font-weight: 300;
     margin-top: 25px;
 }
 
-.carousel{
+#about_us img{
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    display: block;
+    margin: auto;
+}
+
+#about_us .col-md-6{
+    padding: 0px;
+}
+
+#about_us .col-xs-12{
+    padding: 0px;
+}
+
+.bold{
+    font-weight: 400;
+}
+
+.parallax .center{
+    background-image: url('../img/APL_Truck_050.JPG');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+    height: 450px;
+    /* width: 100%; */
+    /* margin-top: 20px; */
+    overflow: hidden;
+}
+
+
+
+
+@media only screen and (max-device-width: 1280px) {
+    .parallax {
+        background-image: url('../img/APL_Truck_050.1.JPG');
+        background-size: contain;
+        background-attachment: scroll;
+    }
+
+/* .parallax .mobile{
+    background-image: url('../img/APL_Truck_050.1.JPG');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 250px;
+    margin-top: 20px;
+    overflow: hidden;
+    display:block;
+
+} */
+
+.text-justify{
+    padding: 10px;
+}
+
+
+/* End of About */
+
+
+
+/* Start of Drayage */
+
+
+/* .col-md-12.center{
+    padding: 0px;
+} */
+
+#international_drayage{
+    background-color: #05367d;
+    /* width: 100% */
+}
+
+#international_drayage .row {
+    /* margin-top: 30px; */
+    background-color: #05367d;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 100%; */
+    /* margin: auto; */
+}
+
+#international_drayag, h1 {
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    color:#fff;
+    font-size: 3.8vw;
+    text-align: center;
+    margin-top: 40px;
+    /* text-shadow: 1px 1px 5px #0a0a0a; */
+}
+
+
+.container-trucks{
+    padding:0px;
+    /* margin:auto; */
+    /* width:100%; */
+}
+
+.col-md-12{
+    padding: 0px;
+    margin: auto;
+}
+
+.col-xs-4{
+    padding: 0px;
+}
+
+.text {
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+/* End of Drayage */
+
+
+
+/* Start of Contact */s
+
+ h1.text-uppercase{
+    text-align: center;
+    font-weight: 900;
+    font-size: 5em;
+    margin-top: 5px;
+    letter-spacing: 2px;
+    color: #05367d;
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+.contact_form{
+    background-color: #05367d;
+    color: white;
+    border: 1px solid #fff;
+}
+
+.contact_form form{
+    padding: 5% 0;
+}
+
+.contact_form span{
+    color: white;
+}
+
+form span :after{
+    content: '*';
+    color: white;
+}
+
+#contact{
+    background-color: #fff;
+}
+
+#contact h1{
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    color:#05367d;
+    font-size: 4me;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#contact p{
+    font-family: Helvetica, sans-serif;;
+    font-weight: 300;
+    font-size: 1em;
+    color: #fff;
+}
+
+#contact_fine_print{
+    font-size: 12px !Important;
+    text-align: center;
+}
+
+address{
+    color: #333333;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+.contact_bottom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* img.img-responsive{
+    max-width: 100%;
+    margin: auto;
+    display: block;
+} */
+
+
+/* End of Contact */
+
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+
+/* Start of Footer */
+
+.page-footer{
+    background-color: #05367d;
+    height: 120px;
+}
+
+footer.page-footer .footer-copyright {
+    overflow: hidden;
+    background-color: #fedb16;
+    color:#05367d;
+    height: 50px;
+}    
+
+.text-center {
+    text-align: center!important;
+}
+
+/* .py-3 {
+    padding-bottom: 1rem!important;
+} */
+
+footer.page-footer {
+    color: #05367d;
+}
+
+.footer-copyright{
+    /* margin-top: 40px; */
+    color: #fedb16;
+    padding-top: 15px;
+}
+
+a{
+    color: #fff
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* padding-top: 50px; */
+    /* margin-top: 40px; */
+}
+
+/* @media (min-width: 768px) {
+    flex: 0 0 100%;
+    max-width: 100%;
+} */
+
+.py-5 {
+    padding-bottom: 3rem!important;
+}
+
+.mb-5, .my-5 {
+    margin-bottom: 3rem!important;
+    padding: 10px;
+}
+
+/* .fb-ic, .tw-ic, .li-ic .ins-ic {
+    color: #fff;
+    padding: 0, 20px;
+} */
+
+.fa-facebook-f:before {
+    content: "\f39e";
+    padding: 30px;
+}
+
+.fa-twitter:before {
+    content: "\f099";
+    padding: 30px;
+}
+
+.fa-linkedin-in:before {
+    content: "\f0e1";
+    padding: 30px;
+}
+
+.fa-instagram:before {
+    content: "\f16d";
+    padding: 30px;
+}
+
+footer .col-md-12 .py-5{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 300px;
+}
+
+/* .carousel{
     margin-bottom: 60px;
+    margin-top: 30px;
 }
 
 .carousel-caption{
@@ -29,114 +575,23 @@
     background-position: center;
 }
 
+.carousel-inner>.item>img, .img-responsive{
+    width: 700px;
+    height: 200px;
+}
+
+.main_img1{
+    background-image: url('../img/APL_Truck_033.JPG')
+}
+
 .main_img2{
     background-image: url('../img/APL_Truck_028.JPG');
 } 
 
 .main_img3{
-    background-image: url('../img/APL_Truck_036.JPG'); */
-}
-
-#about_us .container-fluid{
-    margin-bottom: 50px;
-}
-
- h1{
-    font-family: Helvetica, sans-serif;
-    font-weight: 800;
-    font-size: 70px;
-    font-kerning: normal;
-    text-transform: uppercase;
-}
-
-#about_us h2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 6em;
-    font-weight: 900;
-    color: #05367d;
-    text-transform: uppercase;
-    margin-top: 125px;
-    letter-spacing: 2px;
-    margin-left: 23px;
-
-}
-
-#about_us h3{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    font-size: 1.7em;
-    margin-top: 5px;
-    /* margin-left: 5px; */
-    letter-spacing: 1.5px;
-}
-
-#about_us p{
-    font-weight: 300;
-}
-
-.bold{
-    font-weight: 400;
-}
-
-.parallax .center{
-    background-image: url('../img/APL_Truck_050.JPG');
-    background-size: cover;
-    background-attachment: fixed;
-    height: 700px;
-    width: 100%;
-    margin-top: 20px;
-}
-
-/* #review .center {
-    margin: 0 auto;
-    float: none;
-    background-color: rgba(20,20,20,.6);
-    padding: 10px;
-    margin-top: 145px;
-    border-radius: 5px;
-} */
-
-/* #international_drayage{
-    background-color: #05367d;
-}
-
-/* #international_drayage */
-
-#international_drayage .container_fluid {
-    background-color: #05367d;
-}
+    background-image: url('../img/APL_Truck_036.JPG'); 
+} 
 
 
-#international_drayage, p{
-    font-weight: 300;
-    color: #05367d;
-}
 
-
-#international_drayage h1{
-    color: #05367d;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 5em;
-    font-weight: 900;
-    text-transform: uppercase;
-    margin-top: 75px;
-    letter-spacing: 2px;
-    text-align: center;
-}
-
-/* #international_drayage h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 5em;
-    font-weight: 900;
-    color:#05367d;
-    text-transform: uppercase;
-    margin-top: 75px;
-    letter-spacing: 2px;
-    margin-left: 23px; */
-    text-align: center;
-} */
-
-.drayage{
-    color: #05367d;
-    margin-bottom: 30px;
-} */
+*/
