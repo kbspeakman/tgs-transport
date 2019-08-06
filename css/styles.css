@@ -137,7 +137,7 @@ nav.navbar {
 }
 
 .main_img3 {
-    background-image: url(../img/APL_Truck_028.1.JPG);
+    background-image: url(../img/APL_Truck_028.1.jpg);
 }
 
 .main_logo {
@@ -203,8 +203,7 @@ hr{
     margin-top: 20px;
     margin-bottom: 30px;
     font-weight: 300;
-    margin-top: 25px;
-    text:auto;
+    margin-top: 5px;
 }
 
 
@@ -370,7 +369,7 @@ hr{
 
 .text {
     color: #fff;
-    margin-top: 15px;
+    margin-top: 5px;
     margin-bottom: 30px;
 }
 
@@ -591,7 +590,3 @@ footer .col-md-12 .py-5{
 .main_img3{
     background-image: url('../img/APL_Truck_036.JPG'); 
 } 
-
-
-
-*/
