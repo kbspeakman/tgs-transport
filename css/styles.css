@@ -64,7 +64,7 @@ nav.navbar {
 
 .navbar-brand{
     top: 130px;
-    text-shadow: 0 0 15px #fedb16;
+    text-shadow: 0 1px 15px #fedb16;
 }
 
 /* .img-responsive, .center-block, .main_logo{
@@ -199,7 +199,7 @@ nav.navbar {
         font-size: 3.8vw;
         text-align: center;
         margin-top: 40px;
-        text-shadow: 0 0 15px #fedb16;
+        text-shadow: 0 1px 12px #fedb16;
 }
 
 hr{
@@ -257,6 +257,7 @@ hr{
     font-size: 1.5em;
     margin-top: 5px;
     margin-bottom: 20px;
+    padding-bottom: 20px;
     text-align: center;
     /* margin-left: 5px; */
     letter-spacing: 1px;
