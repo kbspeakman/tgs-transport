@@ -223,9 +223,9 @@ hr{
 
  h1{
     font-family: Helvetica, sans-serif;
-    font-weight: 800;
+    font-weight: 600;
     font-size: 70px;
-    color: white;
+    color: #05367d;
     font-kerning: normal;
     text-shadow: 0 1 15px #fedb16;
     /* text-transform: uppercase; */
@@ -234,7 +234,7 @@ hr{
 #about_us h2{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 5em;
-    font-weight: 900;
+    font-weight: 600;
     color: #05367d;
     text-transform: uppercase;
     margin-top: 40px;
@@ -245,7 +245,7 @@ hr{
 
 #about_us h3{
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1.5em;
     margin-top: 5px;
     margin-bottom: 20px;
@@ -326,9 +326,10 @@ hr{
 
 /* Start of Drayage */
 
-#international_drayage, .container-fluid{
-    background-color: rgb(5,44,125);
-}
+
+/* .col-md-12.center{
+    padding: 0px;
+} */
 
 #international_drayage{
     background-color: #05367d;
@@ -348,7 +349,7 @@ hr{
 
 #international_drayag, h1 {
     font-family: Helvetica, sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     color:#fff;
     font-size: 3.8vw;
     text-align: center;
@@ -392,11 +393,11 @@ hr{
 
 
 
-/* Start of Contact */
+/* Start of Contact */s
 
  #contact, h1.text-uppercase{
     text-align: center;
-    font-weight: 900;
+    font-weight: 600;
     font-size: 5em;
     margin-top: 5px;
     letter-spacing: 2px;
@@ -416,7 +417,6 @@ hr{
 
 .contact_form form{
     padding: 5% 0;
-    background-color: rgb(5,44,125);
 }
 
 .contact_form span{
@@ -434,7 +434,7 @@ form span :after{
 
 #contact h1{
     font-family: Helvetica, sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     color:#05367d;
     font-size: 4me;
     text-align: center;
