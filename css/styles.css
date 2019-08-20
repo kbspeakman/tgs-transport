@@ -225,7 +225,7 @@ hr{
     font-family: Helvetica, sans-serif;
     font-weight: 800;
     font-size: 70px;
-    color: white
+    color: white;
     font-kerning: normal;
     text-shadow: 0 1 15px #fedb16;
     /* text-transform: uppercase; */
@@ -326,6 +326,9 @@ hr{
 
 /* Start of Drayage */
 
+#international_drayage, .container-fluid{
+    background-color: rgb(5,44,125);
+}
 
 #international_drayage{
     background-color: #05367d;
