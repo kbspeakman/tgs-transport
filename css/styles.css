@@ -188,20 +188,10 @@ nav.navbar {
 #intro .row {
     /* margin-top: 30px; */
     background-color: #05367d;
-    /* background-color: rgb(5,44,125) */
     margin-left: auto;
     margin-right: auto;
 }
 
-#international_drayag, h1 {
-        font-family: Helvetica, sans-serif;
-        font-weight: 700;
-        color:#fff;
-        font-size: 3.8vw;
-        text-align: center;
-        margin-top: 40px;
-        text-shadow: 0 1px 12px #fedb16;
-}
 
 hr{
     align-content: center; 
@@ -327,7 +317,9 @@ hr{
     padding: 10px;
 }
 
-
+.bold{
+    color: white;
+}
 /* End of About */
 
 
@@ -341,14 +333,14 @@ hr{
 
 #international_drayage{
     background-color: #05367d;
-    background-color: rgb(5,54,125);
+    background-color: rgb(5,44,125);
     /* width: 100% */
 }
 
 #international_drayage .row {
     /* margin-top: 30px; */
     background-color: #05367d;
-    background-color: rgb(5,54,125);
+    background-color: rgb(5,44,125);
     margin-left: auto;
     margin-right: auto;
     /* width: 100%; */
@@ -363,6 +355,16 @@ hr{
     text-align: center;
     margin-top: 40px;
     /* text-shadow: 1px 1px 5px #0a0a0a; */
+}
+
+#international_drayag, h1 {
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    color:#fff;
+    font-size: 3.8vw;
+    text-align: center;
+    margin-top: 40px;
+    text-shadow: 0 1px 12px #fedb16;
 }
 
 
@@ -391,7 +393,7 @@ hr{
 
 
 
-/* Start of Contact */
+/* Start of Contact */s
 
  #contact, h1.text-uppercase{
     text-align: center;
@@ -400,7 +402,7 @@ hr{
     margin-top: 5px;
     letter-spacing: 2px;
     color: #05367d;
-    color: rgb(5,54,125);
+    color: rgb(5,44,125);
     font-size: 4em;
     text-transform: uppercase;
     text-shadow: none;
@@ -408,7 +410,7 @@ hr{
 
 .contact_form{
     background-color: #05367d;
-    background-color: rgb(5,54,125);
+    background-color: rgb(5,44,125);
     color: white;
     border: 1px solid #fff;
 }
@@ -434,7 +436,6 @@ form span :after{
     font-family: Helvetica, sans-serif;
     font-weight: 700;
     color:#05367d;
-    color: rgb(5,54,125);
     font-size: 4me;
     text-align: center;
     margin-top: 40px;
