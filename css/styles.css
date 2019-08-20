@@ -188,7 +188,7 @@ nav.navbar {
 #intro .row {
     /* margin-top: 30px; */
     background-color: #05367d;
-    background-color: rgb(5,44,125)
+    /* background-color: rgb(5,44,125) */
     margin-left: auto;
     margin-right: auto;
 }
@@ -391,7 +391,7 @@ hr{
 
 
 
-/* Start of Contact */s
+/* Start of Contact */
 
  #contact, h1.text-uppercase{
     text-align: center;
