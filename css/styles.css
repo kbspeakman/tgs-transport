@@ -511,6 +511,7 @@ footer.page-footer {
 footer.page-footer .footer-copyright {
     overflow: hidden;
     background-color: #fedb16;
+    background-color: RGB (254	219	22);
     color: #fff;
 }
 
@@ -536,6 +537,7 @@ div {
 
 footer{
     background-color: #05367d;
+    background-color: rgb(5,44,125);
 }
 
 .pb-5, .py-5 {
