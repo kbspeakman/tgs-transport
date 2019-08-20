@@ -188,6 +188,7 @@ nav.navbar {
 #intro .row {
     /* margin-top: 30px; */
     background-color: #05367d;
+    background-color: rgb(5,44,125)
     margin-left: auto;
     margin-right: auto;
 }
@@ -234,6 +235,7 @@ hr{
     font-family: Helvetica, sans-serif;
     font-weight: 800;
     font-size: 70px;
+    color: #05367d;
     font-kerning: normal;
     text-shadow: 0 1 15px #fedb16;
     /* text-transform: uppercase; */
@@ -339,12 +341,14 @@ hr{
 
 #international_drayage{
     background-color: #05367d;
+    background-color: rgb(5,54,125);
     /* width: 100% */
 }
 
 #international_drayage .row {
     /* margin-top: 30px; */
     background-color: #05367d;
+    background-color: rgb(5,54,125);
     margin-left: auto;
     margin-right: auto;
     /* width: 100%; */
@@ -396,6 +400,7 @@ hr{
     margin-top: 5px;
     letter-spacing: 2px;
     color: #05367d;
+    color: rgb(5,54,125);
     font-size: 4em;
     text-transform: uppercase;
     text-shadow: none;
@@ -403,6 +408,7 @@ hr{
 
 .contact_form{
     background-color: #05367d;
+    background-color: rgb(5,54,125);
     color: white;
     border: 1px solid #fff;
 }
@@ -424,11 +430,12 @@ form span :after{
     background-color: #fff;
 }
 
-#contact h1{
+#contact h2{
     font-family: Helvetica, sans-serif;
     font-weight: 700;
     color:#05367d;
-    font-size: 4me;
+    color: rgb(5,54,125);
+    font-size: 65px;
     text-align: center;
     margin-top: 40px;
 }
@@ -598,6 +605,10 @@ footer{
 
 a {
     color: white;
+}
+
+.web-link{
+    color: #05367d;
 }
 
 #contact_fine_print{
