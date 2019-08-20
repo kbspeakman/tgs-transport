@@ -430,12 +430,12 @@ form span :after{
     background-color: #fff;
 }
 
-#contact h2{
+#contact h1{
     font-family: Helvetica, sans-serif;
     font-weight: 700;
     color:#05367d;
     color: rgb(5,54,125);
-    font-size: 65px;
+    font-size: 4me;
     text-align: center;
     margin-top: 40px;
 }
