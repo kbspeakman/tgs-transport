@@ -225,7 +225,7 @@ hr{
     font-family: Helvetica, sans-serif;
     font-weight: 800;
     font-size: 70px;
-    color: #05367d;
+    color: white
     font-kerning: normal;
     text-shadow: 0 1 15px #fedb16;
     /* text-transform: uppercase; */
@@ -327,10 +327,6 @@ hr{
 /* Start of Drayage */
 
 
-/* .col-md-12.center{
-    padding: 0px;
-} */
-
 #international_drayage{
     background-color: #05367d;
     background-color: rgb(5,44,125);
@@ -393,7 +389,7 @@ hr{
 
 
 
-/* Start of Contact */s
+/* Start of Contact */
 
  #contact, h1.text-uppercase{
     text-align: center;
