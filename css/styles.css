@@ -333,14 +333,14 @@ hr{
 
 #international_drayage{
     background-color: #05367d;
-    background-color: rgb(5,44,125);
+    background: rgb(5,44,125);
     /* width: 100% */
 }
 
 #international_drayage .row {
     /* margin-top: 30px; */
     background-color: #05367d;
-    background-color: rgb(5,44,125);
+    background: rgb(5,44,125);
     margin-left: auto;
     margin-right: auto;
     /* width: 100%; */
@@ -511,7 +511,7 @@ footer.page-footer {
 footer.page-footer .footer-copyright {
     overflow: hidden;
     background-color: #fedb16;
-    background-color: RGB (254	219	22);
+    background-color: rgb(254,219,22);
     color: #fff;
 }
 
