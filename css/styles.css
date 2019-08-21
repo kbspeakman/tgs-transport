@@ -301,6 +301,7 @@ hr{
         background-size: contain;
         background-attachment: scroll;
     }
+}
 
 /* .parallax .mobile{
     background-image: url('../img/APL_Truck_050.1.JPG');
@@ -352,10 +353,10 @@ hr{
     font-size: 3.8vw;
     text-align: center;
     margin-top: 40px;
-    /* text-shadow: 1px 1px 5px #0a0a0a; */
+    text-shadow: 0 1px 12px #fedb16;
 }
 
-#international_drayag, h1 {
+/* #international_drayag, h1 {
     font-family: Helvetica, sans-serif;
     font-weight: 600;
     color:#fff;
@@ -363,7 +364,7 @@ hr{
     text-align: center;
     margin-top: 40px;
     text-shadow: 0 1px 12px #fedb16;
-}
+} */
 
 
 .container-trucks{
@@ -546,29 +547,30 @@ footer{
     padding-top: 3rem!important;
 }
 
-@media (min-width: 768px)
-.col-md-12 {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
+@media (min-width: 768px){
+    .col-md-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 }
 
 .col-md-12{
     position: relative;
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .fa-facebook-f:before {
     content: "\f39e";
-    padding: 0px 30px;
+    padding: 0px 20px;
     color: #fff;
 }
 
 .fa-twitter:before {
     content: "\f099";
-    padding: 0px 30px;
+    padding: 0px 20px;
     color: #fff;
 }
 
@@ -594,13 +596,6 @@ footer{
     content: "\f0d2";
     padding: 0px 30px;
     color: #fff;
-}
-
-@media (min-width: 768px)
-.col-md-12 {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
 }
 
 
