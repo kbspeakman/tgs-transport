@@ -234,7 +234,7 @@ hr{
 #about_us h2{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 5em;
-    font-weight: 900;
+    font-weight: 600;
     color: #05367d;
     text-transform: uppercase;
     margin-top: 40px;
@@ -245,7 +245,7 @@ hr{
 
 #about_us h3{
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1.5em;
     margin-top: 5px;
     margin-bottom: 20px;
@@ -347,7 +347,7 @@ hr{
 
 #international_drayag, h1 {
     font-family: Helvetica, sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     color:#fff;
     font-size: 3.8vw;
     text-align: center;
@@ -357,7 +357,7 @@ hr{
 
 #international_drayag, h1 {
     font-family: Helvetica, sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     color:#fff;
     font-size: 3.8vw;
     text-align: center;
@@ -395,12 +395,12 @@ hr{
 
  #contact, h1.text-uppercase{
     text-align: center;
-    font-weight: 900;
+    font-weight: 600;
     font-size: 5em;
     margin-top: 5px;
     letter-spacing: 2px;
     color: #05367d;
-    background-color: rgb(5,44,125);
+    color: rgb(5,44,125);
     font-size: 4em;
     text-transform: uppercase;
     text-shadow: none;
@@ -441,7 +441,7 @@ form span :after{
 
 #contact p{
     font-family: Helvetica, sans-serif;;
-    font-weight: 300;
+    font-weight: 200;
     font-size: 1em;
     color: #fff;
 }
@@ -454,7 +454,7 @@ form span :after{
 address{
     color: #333333;
     font-family: 'Helvetica', sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     /* padding-top: 5px; */
 }
 
@@ -486,7 +486,7 @@ html, body{
 
 footer.page-footer {
     bottom: 0;
-    color: #fff;
+    /* color: #fff; */
 }
 
 .font-small {
@@ -509,6 +509,7 @@ footer.page-footer {
 footer.page-footer .footer-copyright {
     overflow: hidden;
     background-color: #fedb16;
+    background-color: rgb(254, 219, 22);
     color: #fff;
 }
 
@@ -534,6 +535,7 @@ div {
 
 footer{
     background-color: #05367d;
+    background-color: rgb(5,44,125);
 }
 
 .pb-5, .py-5 {
