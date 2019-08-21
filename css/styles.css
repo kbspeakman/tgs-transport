@@ -339,7 +339,7 @@ hr{
 
 #international_drayage .row {
     /* margin-top: 30px; */
-    background-color: #05367d;
+    background: #05367d;
     background: rgb(5,44,125);
     margin-left: auto;
     margin-right: auto;
