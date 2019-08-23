@@ -503,6 +503,12 @@ address{
     margin-bottom: 50px;
 }
 
+button{
+    color: #05367d;
+    padding: 7px;
+    border-radius: .5em;
+}
+
 /* img.img-responsive{
     max-width: 100%;
     margin: auto;
