@@ -236,10 +236,10 @@
 			<div class="row contact_bottom">
 				<div class="col-md-6">
 					<div class="col-sm-12 contact_form">
-						<form action="">
+						<form method="POST" action="form_process.php">
 							<div class="form-group">
 								<label for="name">Name*<span></span>
-								<input type="text" class="form-control" placeholder="Name"></label>
+								<input type="text" name="name" class="form-control" placeholder="Name"></label>
 
 								<label for="email">Email*<span></span>
 								<input type="text" class="form-control" placeholder="Email"></label>
@@ -252,9 +252,9 @@
 								<textarea cols="30" rows="5" class="form-control" placeholder="Let us know your questions."></textarea></div>
 
 
-								<button type="submit" class="btn btn-default center-block" data-toggle="conformation" data-singleton="true"> <a href="mailto:kbspeakman14@gmail.com"></a>Send Message
-                                </button>
-
+								<button type="submit" value="send form" class="btn btn-default center-block">Send Message
+                                  
+								</button>
 								<p class="text-center" id="contact_fine_print">All fields marked<span>*</span> are mandatory</p>
 							</div>
 						</form>
