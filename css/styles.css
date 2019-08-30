@@ -98,24 +98,20 @@ nav.navbar {
     /* margin-bottom: 20px;
     padding-bottom: 20px;
     padding-left: 10px;
-} */ */
-
-/* .nav {
-    margin-top: 15px;
 } */
-
 
 /* End of Nav-bar */
 
-
-
+.iconbar-burger .collapse{
+    background-color: #05367d
+}
 
 /* Start Carousel */
 
 
-.carousel {
+/* .carousel {
     margin-bottom: 60px;
-}
+} */
 
 .carousel-caption {
     /* z-index: 10; */
@@ -189,6 +185,12 @@ nav.navbar {
   }
   
   /* Style the icon bar links */
+
+  .icon-bar{
+    position: fixed;
+    z-index: 999;
+  }
+
   .icon-bar a {
     display: block;
     text-align: center;
@@ -212,6 +214,11 @@ nav.navbar {
   .linkedin {
     background: #fedb16;
     color: white;
+  }
+
+  .scrolltotop{
+      background: #333333;
+      color: white;
   }
   
 
@@ -437,7 +444,7 @@ hr{
     text-align: center;
     font-weight: 600;
     font-size: 5em;
-    margin-top: 5px;
+    margin-top: 25px;
     letter-spacing: 2px;
     color: #05367d;
     color: rgb(5,44,125);
