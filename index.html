@@ -12,14 +12,14 @@
 
 	<!-- Navbar -->
 	
-	<nav class="navbar navbar-default">
+	<nav id="navbar" class="navbar navbar-default">
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNavbar">
 					<span class="sr-only">Toggle Navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
+					<span class="icon-bar-burger"></span>
+					<span class="icon-bar-burger"></span>
+					<span class="icon-bar-burger"><i class="glyphicon glyphicon-menu-hamburger"></i></span>
 				</button>
 				<a href="#home" class="navbar-brand">
 					Welcome to T.G.S. Intermodal
@@ -29,7 +29,8 @@
 			<div class="collapse navbar-collapse" id="mainNavbar">
 				<ul class="nav navbar-nav navbar-right">
 					<li class="active">
-						<a href="#">Home <span class="sr-only">(current)</span>
+						<a href="#">Home 
+						<span class="sr-only">(current)</span>
 						</a>
 					</li>
 					<li><a href="#about_us">About Us</a></li>
@@ -41,26 +42,10 @@
 		</div>	
 	</nav>
 
-
+    <!-- End of Nav Bar -->
+		
 	
-	<!-- <div class="container">
-            <header class="row">
-                <div class="col-xs-8 col-sm-4 col-md-6 centered">
-                    <img src="img/TGS_logo.png" alt="logo" class="pull-left logo">
-                </div>
-                <nav class="col-xs-12 col-sm-7 col-md-6">
-                    <ul class="nav nav-pills pull-right">
-                        <li role="presentation" class="active"> <a href="#home">Home</a></li>
-                        <li role="presentation"><a href="#about_us">About Us</a></li>
-                        <li role="presentation"><a href="#international_drayage">International Drayage</a></li>
-                        <li role="presentation"><a href="#contact">Contact Us</a></li>
-                    </ul>
-                </nav>
-            </header>
-        </div>	
-     -->
-        <!-- End of Nav Bar -->
-        
+
     <!-- Carousel Start -->
 
 	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -104,7 +89,7 @@
 	<div class="icon-bar">
 	<a href="https://www.facebook.com/TGS-Transportation-Inc-173859245986196/" class="facebook"><i class="fa fa-facebook"></i></a> 
 	<a href="https://www.linkedin.com/company/t-g-s-transportation-inc/" class="linkedin"><i class="fa fa-linkedin"></i></a>
-
+	<a href="#navbar" class="scrolltotop"> <i class="glyphicon glyphicon-chevron-up"></i></a>
 	</div>
 
 	<!-- Intro Section  -->
@@ -143,8 +128,6 @@
 				</div>		
 					</div>
 					<div class="col-md-6">
-						<!-- <div class="year_container">
-						<h3 id="story_year"></h3> -->
 					
 					<p class="text-justify">Our beginning was a lot like many small businesses that started out. It started with one person and a vision. Our founder,Timothy G. Schneider started TGS in 1985 in the back room of his father-in-law’s fruit packing shed. After only six months, and a lot of hard work and success, Tim incorporated. Within the next year he bought the property across the street, where we are today.</p>
 
@@ -169,8 +152,6 @@
 	<div id="about_us" class="container-fluid">
 		<div class="row parallax">
 			<div class="col-md-12 center">
-				<!-- <img class="parallax center img-responsive" src="img/APL_Truck_050.JPG" alt="TGS Truck in Sierra Nevada Mountains">
-				<img class="parallax img-responsive-mobile" src="img/APL_Truck_050.1.JPG" alt="TGS Truck in Sierra Nevada Mountains"> -->
 			</div>
 		</div>
 	</div>
@@ -205,22 +186,11 @@
 			</div>
 		</div>
 	</section>
-	
-	<!-- <div class="row">
-		<div class="col-md-12">
-			<div class="row">
-				<div class="col-xs-4"></div>
-				<div class="col-xs-4"></div>
-				<div class="col-xs-4"></div>
-			</div>
-		</div>
-	</div> -->
 
 
 	<!-- Start of Contact -->
 
 	<!-- Contact section -->
-
 	<section>
 	<div id="contact">
 		<div class="container-fluid">
@@ -230,41 +200,19 @@
 				<h1 class="text-uppercase">Contact Us</h1>
 				</div>
 			</div>
-		<!-- <div class="row col-sm-12">
-			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, perspiciatis! Ducimus officia amet corrupti doloribus.</p>
-		</div> -->
 			<div class="row contact_bottom">
 				<div class="col-md-6">
 					<div class="col-sm-12 contact_form">
 <!-- www.123formbuilder.com script begins here -->
-<iframe allowTransparency="true" style="overflow: hidden;min-height:625px; height:inherit; overflow:auto;" width="100%" id="contactform123" name="contactform123" marginwidth="0" marginheight="0" frameborder="0" src="//www.123formbuilder.com/my-contact-form-4999912.html">
+<iframe allowTransparency="true" style="overflow: hidden;min-height:625px; height:inherit;" width="100%" id="contactform123" name="contactform123" marginwidth="0" marginheight="0" frameborder="0" src="//www.123formbuilder.com/my-contact-form-4999912.html"
+sandbox="allow-top-navigation allow-scripts allow-forms" scrolling="no">
     <p>Your browser does not support iframes. The contact form cannot be displayed. Please use another contact method (phone, fax etc)</p>
     </iframe>
     <!-- www.123formbuilder.com script ends here --->
-						<!-- <form method="POST" action="form_process.php">
-							<div class="form-group">
-								<label for="name">Name*<span></span>
-								<input type="text" name="name" class="form-control" placeholder="Name"></label>
-
-								<label for="email">Email*<span></span>
-								<input type="text" class="form-control" placeholder="Email"></label>
-								
-								<label for="subject"><span>Subject</span>
-								<input type="text" class="form-control" placeholder="Subject"></label>
-
-								<div class="form-group">
-								<label for="message">Message*<span></span></label>
-								<textarea cols="30" rows="5" class="form-control" placeholder="Let us know your questions."></textarea></div>
-
-
-								<button type="submit" value="send form" class="btn btn-default center-block">Send Message
-                                  
-								</button>
-								<p class="text-center" id="contact_fine_print">All fields marked<span>*</span> are mandatory</p>
-							</div>
-						</form> -->
+						
 					</div>
 				</div>
+				
 
 				<div class="col-md-5">
 					<address>
@@ -276,9 +224,9 @@
 						<br>
 						reno-dispatch@tgsintermodal.com
 						<br>
-						<a class="web-link" href=Website: www.tgsintermodal.com="HTML link">www.tgsintermodal.com</a>
+						<!-- <a class="web-link" href=Website: www.tgsintermodal.com="HTML link">www.tgsintermodal.com</a> -->
 					</address>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24624.280651521032!2d-119.77265661017022!3d39.51369791040439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80993f0fec248253%3A0xa016d71fa38f5fb!2s30+Ohm+Pl+%231%2C+Reno%2C+NV+89502!5e0!3m2!1sen!2sus!4v1564606684412!5m2!1sen!2sus" width="400" height="510" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24624.280651521032!2d-119.77265661017022!3d39.51369791040439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80993f0fec248253%3A0xa016d71fa38f5fb!2s30+Ohm+Pl+%231%2C+Reno%2C+NV+89502!5e0!3m2!1sen!2sus!4v1564606684412!5m2!1sen!2sus" width="400" height="530" frameborder="0" style="border:0" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
@@ -286,9 +234,9 @@
 </div>
 </section>
 
+<!-- End of Contact section -->
 
 
-<!-- Start of footer -->
 
 <!-- Start of Footer -->
   <!-- Footer -->
@@ -307,27 +255,26 @@
             <!-- Facebook -->
             <a href="https://www.facebook.com/TGS-Transportation-Inc-173859245986196/" class="fb-ic">
               <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-            </a>
-            <!-- Twitter
-            <a class="tw-ic">
+			</a>
+			
+			<!-- Twitter -->
+				
+            <!-- <a class="tw-ic">
               <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-            </a> -->
-            <!-- Google +
-            <a class="gplus-ic">
-              <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-            </a> -->
-            <!--Linkedin -->
+            </a> --> -->
+           
+			<!--Linkedin -->
+			
             <a href="https://www.linkedin.com/company/t-g-s-transportation-inc/" class="li-ic">
               <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-            </a>
-            <!--Instagram-->
+			</a>
+			
+			<!--Instagram-->
+			
             <!-- <a href="#" class="ins-ic">
               <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
             </a> -->
-            <!--Pinterest-->
-            <!-- <a href="#" class="pin-ic">
-              <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
-            </a> -->
+            
           </div>
         </div>
         <!-- Grid column -->
@@ -346,134 +293,6 @@
   
   </footer>
   <!-- Footer -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- <footer class="page-footer font-small cyan darken-3"> -->
-
-	<!-- Footer Elements -->
-	<!-- <div class="container"> -->
-  
-	  <!-- Grid row-->
-	  <!-- <div class="row"> -->
-  
-		<!-- Grid column -->
-		<!-- <div class="col-md-12 py-5">
-		  <div class="mb-5 flex-center"> -->
-  
-			<!-- Facebook -->
-			<!-- <a class="fb-ic">
-			  <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-			</a> -->
-			<!-- Twitter -->
-			<!-- <a class="tw-ic">
-			  <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-			</a> -->
-			<!-- Google +-->
-			<!-- <a class="gplus-ic">
-			  <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-			</a> -->
-			<!--Linkedin -->
-			<!-- <a href="https://www.linkedin.com/company/18687729/admin/" class="li-ic">
-			  <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-			</a> -->
-			<!--Instagram-->
-			<!-- <a class="ins-ic">
-			  <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-			</a> -->
-			<!--Pinterest-->
-			<!-- <a class="pin-ic">
-			  <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
-			</a> -->
-		  <!-- </div>
-		</div> -->
-		<!-- Grid column -->
-  
-	  <!-- </div> -->
-	  <!-- Grid row-->
-<!--   
-	</div> -->
-	<!-- Footer Elements -->
-  
-	<!-- Copyright -->
-	<!-- <div class="footer-copyright text-center py-3">© 2019 Copyright:
-	  <a href="https://www.rosestrategiccommunications.com/"> RoseStrategicCommunications.com</a>
-	</div> -->
-	<!-- Copyright -->
-  
-  <!-- </footer> -->
-
-
-
-
-  <!-- End of Footer -->
-
-
-
-
-
-
-
-	<!-- <section class="container_fluid" id="#international_drayage">
-		<div class="container">
-			<h1>International Drayage</h1>
-			<div class="row ">
-				<div class="col-sm-12 text-justify drayage">
-				<p>Out of northern Nevada, our Reno/Sparks office manages freight from all the international terminals and rail ramps out of the port of Oakland. We run a mix of company trucks and subhaulers.TGS has purchased brand new trucks for our company fleet in Nevada. Lightweight, high horsepower trucks to haul heavy loads and take on Donner Pass with ease. TGS is also incorporating our new chassis fleet into this market. TGS runs about the newest chassis fleet in the industry. All chassis are 2017 and newer, with new chassis coming into the fleet every six months. We have an array of chassis for many types of loads, specifically for heavy 20’ and 40’ loads with upwards of
-				46,000 lbs. cargo weight.</p>
-				</div>
-			</div>
-		</div>
-	</section> -->
-
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
