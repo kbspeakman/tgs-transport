@@ -535,6 +535,9 @@ html, body{
     overflow-x: hidden;
 }
 
+.iframe-container{
+    position: absolute;
+}
 
 
 /* Start of Footer */
