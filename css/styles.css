@@ -479,9 +479,7 @@ hr{
 #contact{
     background-color: #fff;
 }
-#contact .container-fluid{
-    height: 2,000px;
-}
+
 
 #contact h1{
     font-family: Helvetica, sans-serif;
@@ -544,7 +542,7 @@ html, body{
 }
 
 .iframe-container{
-    position: absolute;
+    /* position: absolute; */
     scroll-behavior: smooth;
 }
 
@@ -567,9 +565,10 @@ footer.page-footer {
 }
 
 footer{
-    /* top: 1000px; */
     /* position: fixed; */
-    /* width: 100%; */
+    /* top: 5000px; */
+    /* position: fixed; */
+    width: 100%;
 }
 
 .flex-center {
