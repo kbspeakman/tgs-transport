@@ -454,27 +454,33 @@ hr{
 }
 
 .contact_form{
+    padding-bottom: 10px;
+    padding-top: 10px;
     background-color: #05367d;
     background-color: rgb(5,44,125);
     color: white;
     border: 1px solid #fff;
 }
 
+
 .contact_form form{
     padding: 5% 0;
 }
 
-.contact_form span{
+/* .contact_form span{
     color: white;
-}
+} */
 
-form span :after{
+/* form span :after{
     content: '*';
     color: white;
-}
+} */
 
 #contact{
     background-color: #fff;
+}
+#contact .container-fluid{
+    height: 2,000px;
 }
 
 #contact h1{
@@ -492,13 +498,14 @@ form span :after{
     font-size: 1em;
     color: #fff;
 }
-/* iframe{
+iframe{
     overflow: hidden;
-} */
-#contact_fine_print{
+}
+
+/* #contact_fine_print{
     font-size: 12px !Important;
     text-align: center;
-}
+} */
 
 address{
     color: #333333;
@@ -506,6 +513,7 @@ address{
     font-weight: 200;
     /* padding-top: 5px; */
 }
+
 
 .contact_bottom{
     margin-top: 50px;
@@ -537,8 +545,13 @@ html, body{
 
 .iframe-container{
     position: absolute;
+    scroll-behavior: smooth;
 }
 
+/* script{
+    display:inline-block;
+    overflow: hidden;
+} */
 
 /* Start of Footer */
 
@@ -551,6 +564,12 @@ footer.page-footer {
     font-size: 1.5rem;
     font-kerning: 1rem;
     
+}
+
+footer{
+    /* top: 1000px; */
+    /* position: fixed; */
+    /* width: 100%; */
 }
 
 .flex-center {
